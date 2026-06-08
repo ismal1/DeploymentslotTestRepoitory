@@ -29,5 +29,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'dpslotwebsite'
-          slot-name: 'Production'
+          slot-name: 'stagingslot'
           package: '.'
